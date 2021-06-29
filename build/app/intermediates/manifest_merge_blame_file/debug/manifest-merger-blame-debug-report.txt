@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.wcloud"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/ogre/Desktop/demo/mobile_app/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/ogre/Desktop/demo/mobile_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_CONTACTS" />
+15-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:3:6-72
+15-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:3:23-70
+16    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+16-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:4:6-73
+16-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:4:23-71
+17
+18    <queries>
+18-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-11:15
+19        <intent>
+19-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-10:18
+20            <action android:name="android.support.customtabs.action.CustomTabsService" />
+20-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-90
+20-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:9:21-87
+21        </intent>
+22        <intent>
+22-->[:contacts_service] /home/ogre/Desktop/demo/mobile_app/build/contacts_service/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:18
+23            <action android:name="android.accounts.AccountAuthenticator" />
+23-->[:contacts_service] /home/ogre/Desktop/demo/mobile_app/build/contacts_service/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-76
+23-->[:contacts_service] /home/ogre/Desktop/demo/mobile_app/build/contacts_service/intermediates/library_manifest/debug/AndroidManifest.xml:13:21-73
+24        </intent> <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
+25        <intent>
+25-->[:contacts_service] /home/ogre/Desktop/demo/mobile_app/build/contacts_service/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-23:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->[:contacts_service] /home/ogre/Desktop/demo/mobile_app/build/contacts_service/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-65
+26-->[:contacts_service] /home/ogre/Desktop/demo/mobile_app/build/contacts_service/intermediates/library_manifest/debug/AndroidManifest.xml:17:21-62
+27
+28            <data
+28-->[:contacts_service] /home/ogre/Desktop/demo/mobile_app/build/contacts_service/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-22:44
+29                android:host="com.android.contacts"
+29-->[:contacts_service] /home/ogre/Desktop/demo/mobile_app/build/contacts_service/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-52
+30                android:mimeType="vnd.android.cursor.item/*"
+30-->[:contacts_service] /home/ogre/Desktop/demo/mobile_app/build/contacts_service/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-61
+31                android:scheme="content" />
+31-->[:contacts_service] /home/ogre/Desktop/demo/mobile_app/build/contacts_service/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-41
+32        </intent>
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+35-->[:connectivity] /home/ogre/Desktop/demo/mobile_app/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+35-->[:connectivity] /home/ogre/Desktop/demo/mobile_app/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+36
+37    <application
+37-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:5:4-43:19
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.3.0] /home/ogre/.gradle/caches/transforms-2/files-2.1/a69d6fcd21e670073cd9cab171299398/core-1.3.0/AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:7:9-43
+41        android:label="Vcloud" >
+41-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:6:9-31
+42        <activity
+42-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:9:9-37:20
+43            android:name="com.example.wcloud.MainActivity"
+43-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:10:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:13:13-163
+45            android:hardwareAccelerated="true"
+45-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:14:13-47
+46            android:launchMode="singleTop"
+46-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:11:13-43
+47            android:theme="@style/LaunchTheme"
+47-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:12:13-47
+48            android:windowSoftInputMode="adjustResize" >
+48-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:15:13-55
+49
+50            <!--
+51                 Specifies an Android theme to apply to this Activity as soon as
+52                 the Android process has started. This theme is visible to the user
+53                 while the Flutter UI initializes. After that, this theme continues
+54                 to determine the Window background behind the Flutter UI.
+55            -->
+56            <meta-data
+56-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:20:13-23:17
+57                android:name="io.flutter.embedding.android.NormalTheme"
+57-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:21:15-70
+58                android:resource="@style/NormalTheme" />
+58-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:22:15-52
+59            <!--
+60                 Displays an Android View that continues showing the launch screen
+61                 Drawable until Flutter paints its first frame, then this splash
+62                 screen fades out. A splash screen is useful to avoid any visual
+63                 gap between the end of Android's launch screen and the painting of
+64                 Flutter's first frame.
+65            -->
+66            <meta-data
+66-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:29:13-32:17
+67                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+67-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:30:15-79
+68                android:resource="@drawable/launch_background" />
+68-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:31:15-61
+69
+70            <intent-filter>
+70-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:33:13-36:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:34:17-68
+71-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:34:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:35:17-76
+73-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:35:27-74
+74            </intent-filter>
+75        </activity>
+76        <!--
+77             Don't delete the meta-data below.
+78             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+79        -->
+80        <meta-data
+80-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:40:9-42:33
+81            android:name="flutterEmbedding"
+81-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:41:13-44
+82            android:value="2" />
+82-->/home/ogre/Desktop/demo/mobile_app/android/app/src/main/AndroidManifest.xml:42:13-30
+83
+84        <activity
+84-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-17:47
+85            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+85-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-104
+86            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+86-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-137
+87            android:theme="@style/AppTheme" />
+87-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-44
+88        <activity
+88-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-20:55
+89            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+89-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-112
+90            android:theme="@style/ThemeTransparent" />
+90-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-52
+91
+92        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver" />
+92-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-120
+92-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:22:19-117
+93
+94        <meta-data
+94-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-26:36
+95            android:name="io.flutter.embedded_views_preview"
+95-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-61
+96            android:value="true" />
+96-->[:flutter_inappwebview] /home/ogre/Desktop/demo/mobile_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-33
+97
+98        <activity
+98-->[:url_launcher] /home/ogre/Desktop/demo/mobile_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+99            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+99-->[:url_launcher] /home/ogre/Desktop/demo/mobile_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+100            android:exported="false"
+100-->[:url_launcher] /home/ogre/Desktop/demo/mobile_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+101            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+101-->[:url_launcher] /home/ogre/Desktop/demo/mobile_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+102
+103        <provider
+103-->[:flutter_webview_plugin] /home/ogre/Desktop/demo/mobile_app/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-18:20
+104            android:name="androidx.core.content.FileProvider"
+104-->[:flutter_webview_plugin] /home/ogre/Desktop/demo/mobile_app/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-62
+105            android:authorities="com.example.wcloud.fileprovider"
+105-->[:flutter_webview_plugin] /home/ogre/Desktop/demo/mobile_app/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-64
+106            android:exported="false"
+106-->[:flutter_webview_plugin] /home/ogre/Desktop/demo/mobile_app/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-37
+107            android:grantUriPermissions="true" >
+107-->[:flutter_webview_plugin] /home/ogre/Desktop/demo/mobile_app/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-47
+108            <meta-data
+108-->[:flutter_webview_plugin] /home/ogre/Desktop/demo/mobile_app/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:53
+109                android:name="android.support.FILE_PROVIDER_PATHS"
+109-->[:flutter_webview_plugin] /home/ogre/Desktop/demo/mobile_app/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+110                android:resource="@xml/filepaths" />
+110-->[:flutter_webview_plugin] /home/ogre/Desktop/demo/mobile_app/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-50
+111        </provider>
+112    </application>
+113
+114</manifest>
